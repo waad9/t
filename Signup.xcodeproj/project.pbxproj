@@ -8,12 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		675B69A629485DB800745629 /* SignupApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 675B69A529485DB800745629 /* SignupApp.swift */; };
-		675B69A829485DB800745629 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 675B69A729485DB800745629 /* ContentView.swift */; };
+		675B69A829485DB800745629 /* SignUp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 675B69A729485DB800745629 /* SignUp.swift */; };
 		675B69AA29485DBA00745629 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 675B69A929485DBA00745629 /* Assets.xcassets */; };
 		675B69AD29485DBA00745629 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 675B69AC29485DBA00745629 /* Preview Assets.xcassets */; };
 		675B69B729485DBA00745629 /* SignupTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 675B69B629485DBA00745629 /* SignupTests.swift */; };
 		675B69C129485DBA00745629 /* SignupUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 675B69C029485DBA00745629 /* SignupUITests.swift */; };
 		675B69C329485DBA00745629 /* SignupUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 675B69C229485DBA00745629 /* SignupUITestsLaunchTests.swift */; };
+		675B69D029485F4100745629 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 675B69CF29485F4100745629 /* Color.swift */; };
+		67B2C4DA2951B1420015467D /* SignIn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67B2C4D92951B1420015467D /* SignIn.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +38,7 @@
 /* Begin PBXFileReference section */
 		675B69A229485DB800745629 /* Signup.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Signup.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		675B69A529485DB800745629 /* SignupApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupApp.swift; sourceTree = "<group>"; };
-		675B69A729485DB800745629 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		675B69A729485DB800745629 /* SignUp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUp.swift; sourceTree = "<group>"; };
 		675B69A929485DBA00745629 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		675B69AC29485DBA00745629 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		675B69B229485DBA00745629 /* SignupTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SignupTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +46,8 @@
 		675B69BC29485DBA00745629 /* SignupUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SignupUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		675B69C029485DBA00745629 /* SignupUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupUITests.swift; sourceTree = "<group>"; };
 		675B69C229485DBA00745629 /* SignupUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		675B69CF29485F4100745629 /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
+		67B2C4D92951B1420015467D /* SignIn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignIn.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,7 +99,9 @@
 			isa = PBXGroup;
 			children = (
 				675B69A529485DB800745629 /* SignupApp.swift */,
-				675B69A729485DB800745629 /* ContentView.swift */,
+				675B69A729485DB800745629 /* SignUp.swift */,
+				67B2C4D92951B1420015467D /* SignIn.swift */,
+				675B69CF29485F4100745629 /* Color.swift */,
 				675B69A929485DBA00745629 /* Assets.xcassets */,
 				675B69AB29485DBA00745629 /* Preview Content */,
 			);
@@ -257,8 +263,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				675B69A829485DB800745629 /* ContentView.swift in Sources */,
+				675B69A829485DB800745629 /* SignUp.swift in Sources */,
 				675B69A629485DB800745629 /* SignupApp.swift in Sources */,
+				675B69D029485F4100745629 /* Color.swift in Sources */,
+				67B2C4DA2951B1420015467D /* SignIn.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
