@@ -16,6 +16,8 @@
 		675B69C329485DBA00745629 /* SignupUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 675B69C229485DBA00745629 /* SignupUITestsLaunchTests.swift */; };
 		675B69D029485F4100745629 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 675B69CF29485F4100745629 /* Color.swift */; };
 		67B2C4DA2951B1420015467D /* SignIn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67B2C4D92951B1420015467D /* SignIn.swift */; };
+		67B2C4DC295217830015467D /* Con.payment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67B2C4DB295217830015467D /* Con.payment.swift */; };
+		67B2C4DE2952183F0015467D /* Splash.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67B2C4DD2952183F0015467D /* Splash.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +50,8 @@
 		675B69C229485DBA00745629 /* SignupUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		675B69CF29485F4100745629 /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
 		67B2C4D92951B1420015467D /* SignIn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignIn.swift; sourceTree = "<group>"; };
+		67B2C4DB295217830015467D /* Con.payment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Con.payment.swift; sourceTree = "<group>"; };
+		67B2C4DD2952183F0015467D /* Splash.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Splash.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,8 +103,10 @@
 			isa = PBXGroup;
 			children = (
 				675B69A529485DB800745629 /* SignupApp.swift */,
+				67B2C4DD2952183F0015467D /* Splash.swift */,
 				675B69A729485DB800745629 /* SignUp.swift */,
 				67B2C4D92951B1420015467D /* SignIn.swift */,
+				67B2C4DB295217830015467D /* Con.payment.swift */,
 				675B69CF29485F4100745629 /* Color.swift */,
 				675B69A929485DBA00745629 /* Assets.xcassets */,
 				675B69AB29485DBA00745629 /* Preview Content */,
@@ -267,6 +273,8 @@
 				675B69A629485DB800745629 /* SignupApp.swift in Sources */,
 				675B69D029485F4100745629 /* Color.swift in Sources */,
 				67B2C4DA2951B1420015467D /* SignIn.swift in Sources */,
+				67B2C4DE2952183F0015467D /* Splash.swift in Sources */,
+				67B2C4DC295217830015467D /* Con.payment.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
