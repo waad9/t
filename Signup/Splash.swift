@@ -11,11 +11,11 @@ struct Splash: View {
     @State private var isActive = false
     @State private var size = 0.5
     @State private var opacity = 0.4
+    var product: Product
     
     var body: some View {
         if isActive {
-            
-            
+            MainView(product:product)
         }
         else{
             ZStack{Image("LOGO-KITTY ")
@@ -40,6 +40,6 @@ struct Splash: View {
 }
 struct Splash_Previews: PreviewProvider {
     static var previews: some View {
-        Splash()
+        Splash(product: productList[0])
     }
 }

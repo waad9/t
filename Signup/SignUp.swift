@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct ContentView: View {
+struct SingUp: View {
     @State private var Username = ""
     @State private var Password = ""
     @State private var Email = ""
@@ -23,7 +23,7 @@ struct ContentView: View {
                         .padding(.top,130.0)
                     
                     
-                    Text("Sing Up")
+            Text("Sing Up")
                         .font(.system(size: 30))
                         .fontWeight(.regular)
                         .foregroundColor(Color(red: 0.524, green: 0.651, blue: 0.619))
@@ -134,7 +134,7 @@ struct ContentView: View {
                            
                            .overlay {
                                
-                               TextField(" Enter you password ",          text: $Password)
+                               SecureField(" Enter you password ",          text: $Password)
                                    .padding( .bottom, 200 )
                                    .padding(.leading, 80.0
                                    )
@@ -156,8 +156,8 @@ struct ContentView: View {
     
                                 
                 
-        struct ContentView_Previews: PreviewProvider {
+        struct SingUp_Previews: PreviewProvider {
             static var previews: some View {
-                ContentView()
+                SingUp ()
             }
         }
