@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct ContentView: View {
+struct SingUp: View {
     @State private var Username = ""
     @State private var Password = ""
     @State private var Email = ""
@@ -156,8 +156,8 @@ struct ContentView: View {
     
                                 
                 
-        struct ContentView_Previews: PreviewProvider {
+        struct SingUp_Previews: PreviewProvider {
             static var previews: some View {
-                ContentView()
+                SingUp ()
             }
         }
