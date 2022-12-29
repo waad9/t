@@ -1,24 +1,23 @@
 //
-//  Hi.swift
-//  Signup
+//  azz.swift
+//  The second challenge
 //
-//  Created by Hajar Alruqi on 28/05/1444 AH.
+//  Created by azizah ahmed alshami on 26/05/1444 AH.
 //
 
-import Foundation
 import SwiftUI
 
 struct Hi: View {
     
-    @State var searchText = ""
+    @State private var searchText = ""
     //    @Published var firstLogin = false
     //    session.firstLogin = true
     
     //for the adView
-     var numOfImges = 2
-     let timer = Timer.publish(every: 3, on: .main, in: .common).autoconnect()
-    @State  var CurrentImg = 0
-    var product: Product
+    private var numOfImges = 2
+    private let timer = Timer.publish(every: 3, on: .main, in: .common).autoconnect()
+    @State private var CurrentImg = 0
+    
     
     var body: some View {
         NavigationStack {
@@ -35,7 +34,7 @@ struct Hi: View {
                     
                     HStack(spacing: 50) {
                         NavigationLink {
-                            StoreView(product:product)
+                            Text("kkkk")
                         } label: {
                             RoundedRectangle(cornerRadius: 40)
                                 .fill(.white)
@@ -59,7 +58,7 @@ struct Hi: View {
                         }
 
                         NavigationLink {
-                            StoreView(product:product)
+                            Text("kkkk")
                         } label: {
                             RoundedRectangle(cornerRadius: 40)
                                 .fill(.white)
@@ -99,7 +98,7 @@ struct Hi: View {
                         
                         //                                         Spacer()
                         NavigationLink {
-                            ServiceDetails(product:product)
+                            Text("kkkk")
                         } label: {
                             RoundedRectangle(cornerRadius: 40)
                                 .fill(.white)
@@ -166,6 +165,6 @@ struct Hi: View {
 }
 struct Hi_Previews: PreviewProvider {
     static var previews: some View {
-        Hi(product:productList[0])
+        Hi()
     }
 }
