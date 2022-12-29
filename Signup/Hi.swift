@@ -1,23 +1,17 @@
-//
-//  azz.swift
-//  The second challenge
-//
-//  Created by azizah ahmed alshami on 26/05/1444 AH.
-//
-
+import Foundation
 import SwiftUI
 
 struct Hi: View {
     
-    @State private var searchText = ""
+    @State var searchText = ""
     //    @Published var firstLogin = false
     //    session.firstLogin = true
     
     //for the adView
-    private var numOfImges = 2
-    private let timer = Timer.publish(every: 3, on: .main, in: .common).autoconnect()
-    @State private var CurrentImg = 0
-    
+     var numOfImges = 2
+     let timer = Timer.publish(every: 3, on: .main, in: .common).autoconnect()
+    @State  var CurrentImg = 0
+    var product: Product
     
     var body: some View {
         NavigationStack {
@@ -34,7 +28,7 @@ struct Hi: View {
                     
                     HStack(spacing: 50) {
                         NavigationLink {
-                            Text("kkkk")
+                            StoreView(product:product)
                         } label: {
                             RoundedRectangle(cornerRadius: 40)
                                 .fill(.white)
@@ -58,7 +52,7 @@ struct Hi: View {
                         }
 
                         NavigationLink {
-                            Text("kkkk")
+                            StoreView(product:product)
                         } label: {
                             RoundedRectangle(cornerRadius: 40)
                                 .fill(.white)
@@ -98,7 +92,7 @@ struct Hi: View {
                         
                         //                                         Spacer()
                         NavigationLink {
-                            Text("kkkk")
+                            ServiceDetails(product:product)
                         } label: {
                             RoundedRectangle(cornerRadius: 40)
                                 .fill(.white)
@@ -165,6 +159,6 @@ struct Hi: View {
 }
 struct Hi_Previews: PreviewProvider {
     static var previews: some View {
-        Hi()
+        Hi(product:productList[0])
     }
 }
